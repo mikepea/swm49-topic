@@ -11,7 +11,7 @@ import org.apache.activemq.ActiveMQConnectionFactory;
 
 public class ConsumerGS {
 
-    private static String brokerURL = "tcp://193.62.183.213:61616";
+    private static String brokerURL = "tcp://localhost:61616";
     private static ConnectionFactory factory;
     private Connection connection;
     private Session session;
